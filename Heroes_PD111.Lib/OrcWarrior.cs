@@ -8,6 +8,6 @@ public class OrcWarrior : Orc, IWarrior
 
     public void WarriorAttack(Hero enemy)
     {
-        //TODO
+        enemy.GetDamage(Damage);
     }
 }

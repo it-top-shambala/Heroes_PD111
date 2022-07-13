@@ -10,4 +10,9 @@ public abstract class Hero
     {
         Name = name;
     }
+
+    public void GetDamage(int damage)
+    {
+        Health -= damage;
+    }
 }

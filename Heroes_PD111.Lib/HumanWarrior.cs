@@ -8,6 +8,6 @@ public class HumanWarrior : Human, IWarrior
 
     public void WarriorAttack(Hero enemy)
     {
-        //TODO
+        enemy.GetDamage(Damage);
     }
 }
