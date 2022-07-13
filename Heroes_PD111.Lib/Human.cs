@@ -4,7 +4,7 @@ public abstract class Human : Hero
 {
     protected Human(string name) : base(name)
     {
-        Health = 100;
-        Damage = 100;
+        _health = 100;
+        _damage = 100;
     }
 }

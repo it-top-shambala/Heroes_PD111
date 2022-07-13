@@ -4,7 +4,7 @@ public abstract class Orc : Hero
 {
     protected Orc(string name) : base(name)
     {
-        Health = 150;
-        Damage = 150;
+        _health = 150;
+        _damage = 150;
     }
 }
