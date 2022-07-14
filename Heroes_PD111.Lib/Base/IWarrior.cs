@@ -1,4 +1,4 @@
-﻿namespace Heroes_PD111.Lib;
+﻿namespace Heroes_PD111.Lib.Base;
 
 public interface IWarrior
 {

@@ -1,4 +1,6 @@
-﻿namespace Heroes_PD111.Lib;
+﻿using Heroes_PD111.Lib.Base;
+
+namespace Heroes_PD111.Lib.Orc;
 
 public class OrcWarrior : Orc, IWarrior
 {

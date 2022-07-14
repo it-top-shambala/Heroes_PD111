@@ -1,4 +1,6 @@
-﻿namespace Heroes_PD111.Lib;
+﻿using Heroes_PD111.Lib.Base;
+
+namespace Heroes_PD111.Lib.Human;
 
 public class HumanMage : Human, IMage
 {
@@ -11,6 +13,6 @@ public class HumanMage : Human, IMage
 
     public void MageAttack(Hero enemy)
     {
-        enemy.GetDamage(Damage + Mana);
+        enemy.GetDamage(Damage + Mana); //TODO переименовать GetDamage()
     }
 }
