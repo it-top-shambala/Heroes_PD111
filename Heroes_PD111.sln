@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroes_PD111.Lib", "Heroes_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroes_PD111.Lib.Test", "Heroes_PD111.Lib.Test\Heroes_PD111.Lib.Test.csproj", "{2FCDA879-74AF-4307-89CC-5A814A5D797F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heroes_PD111.CliLib", "Heroes_PD111.CliLib\Heroes_PD111.CliLib.csproj", "{EA8DF742-CAB3-4DF5-B574-71A09E8DAAF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2FCDA879-74AF-4307-89CC-5A814A5D797F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCDA879-74AF-4307-89CC-5A814A5D797F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCDA879-74AF-4307-89CC-5A814A5D797F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8DF742-CAB3-4DF5-B574-71A09E8DAAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8DF742-CAB3-4DF5-B574-71A09E8DAAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8DF742-CAB3-4DF5-B574-71A09E8DAAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8DF742-CAB3-4DF5-B574-71A09E8DAAF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
